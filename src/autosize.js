@@ -102,7 +102,7 @@ function assign(ta, {setOverflowX = true, setOverflowY = true} = {}) {
 
 		if (style.height !== ta.style.height) {
 			if (overflowY !== 'visible') {
-				changeOverflow('visible');
+				//changeOverflow('visible');
 			}
 		} else {
 			if (overflowY !== 'hidden') {
